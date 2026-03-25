@@ -1,0 +1,85 @@
+.navbar {
+  background-color: #0a0a0a;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 1px solid #2c2c2c;
+}
+
+.nav-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e50914;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: #e50914;
+}
+
+.nav-auth {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.user-name {
+  color: #fff;
+}
+
+.auth-link-btn {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  transition: background 0.3s;
+}
+
+.auth-link-btn:hover {
+  background-color: #2c2c2c;
+}
+
+.register {
+  background-color: #e50914;
+}
+
+.register:hover {
+  background-color: #f40612;
+}
+
+.logout-btn {
+  background: none;
+  border: 1px solid #e50914;
+  color: #e50914;
+  padding: 0.4rem 0.8rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.logout-btn:hover {
+  background-color: #e50914;
+  color: #fff;
+}
+.admin-link { color: #e50914 !important; }

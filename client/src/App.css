@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tahoma', sans-serif;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+.App {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.slider-section h2 {
+  margin: 20px 0 15px;
+  font-size: 1.8rem;
+}
+
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 15px;
+  padding-bottom: 10px;
+  scrollbar-width: thin;
+}
+
+.content-card {
+  flex: 0 0 180px;
+  transition: transform 0.3s;
+}
+
+.content-card:hover {
+  transform: scale(1.05);
+}
+
+.content-card img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.content-card .info {
+  padding: 8px 0;
+  text-align: center;
+}
+
+.content-card h3 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-card span {
+  font-size: 0.8rem;
+  color: #ccc;
+}
+
+/* تنسيقات إضافية للصفحات */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
